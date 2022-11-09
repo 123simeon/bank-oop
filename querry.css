@@ -121,22 +121,6 @@
   height: 100vh;
   overflow-y: hidden;
 }
-/* 
-  .main-nav-list {
-    flex-direction: column;
-  } */
-
-/* .main-nav-link:link,
-  .main-nav-link:visited {
-    color: #fff;
-    font-size: 3rem;
-  } */
-/* 
-  .main-nav-link.nav-cta:link,
-  .main-nav-link.nav-cta:visited {
-    background-color: #fff;
-    color: #212353;
-  } */
 
 /**************************/
 /* BELOW 750px (Small Tablets) */
@@ -168,11 +152,21 @@
 /**************************/
 @media (max-width: 35em) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .header__img {
     width: 70%;
+  }
+
+  .nav {
+    padding: 0 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 2.2rem;
   }
 
   .features {
@@ -197,10 +191,20 @@
   }
 
   .section__header {
-    font-size: 3rem;
+    font-size: 2.6rem;
+  }
+
+  .operations__content--active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__nav {
+    flex-direction: column;
+    text-align: center;
   }
 
   .footer__link {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
